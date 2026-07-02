@@ -1,7 +1,0 @@
-pages\ManageCoursesPage.class
-tests\TC_004_DeleteCourse.class
-tests\TC_005_Logout.class
-tests\TC_002_VerifyEmptyFormValidation.class
-utils\BaseTest.class
-tests\TC_003_AddNewCourse.class
-tests\TC_001_Login.class
