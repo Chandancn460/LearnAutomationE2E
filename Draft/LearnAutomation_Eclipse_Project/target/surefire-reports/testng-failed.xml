@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LearnAutomation Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Learn Automation Tests(failed)" verbose="0">
+    <classes>
+      <class name="tests.TC_004_DeleteCourse">
+        <methods>
+          <include name="deleteCourse"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.TC_004_DeleteCourse -->
+    </classes>
+  </test> <!-- Learn Automation Tests(failed) -->
+</suite> <!-- Failed suite [LearnAutomation Suite] -->

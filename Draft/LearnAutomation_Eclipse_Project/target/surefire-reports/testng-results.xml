@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-01T19:57:00 IST" name="LearnAutomation Suite" finished-at="2026-07-01T19:58:53 IST" duration-ms="113236">
+    <groups>
+    </groups>
+    <test started-at="2026-07-01T19:57:00 IST" name="Learn Automation Tests" finished-at="2026-07-01T19:58:53 IST" duration-ms="113236">
+      <class name="tests.TC_002_VerifyEmptyFormValidation">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC_002_VerifyEmptyFormValidation@359f7cdf]" started-at="2026-07-01T19:57:21 IST" name="setUp" finished-at="2026-07-01T19:57:35 IST" duration-ms="13155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmptyFormValidation()[pri:2, instance:tests.TC_002_VerifyEmptyFormValidation@359f7cdf]" started-at="2026-07-01T19:57:35 IST" name="verifyEmptyFormValidation" description="TC_002 – Validate empty form submission on Add Course" finished-at="2026-07-01T19:57:39 IST" duration-ms="4207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyFormValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC_002_VerifyEmptyFormValidation@359f7cdf]" started-at="2026-07-01T19:57:39 IST" name="tearDown" finished-at="2026-07-01T19:57:41 IST" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC_002_VerifyEmptyFormValidation -->
+      <class name="tests.TC_005_Logout">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC_005_Logout@4466af20]" started-at="2026-07-01T19:58:35 IST" name="setUp" finished-at="2026-07-01T19:58:48 IST" duration-ms="12354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogout()[pri:5, instance:tests.TC_005_Logout@4466af20]" started-at="2026-07-01T19:58:48 IST" name="verifyLogout" description="TC_005 – Logout from the application" finished-at="2026-07-01T19:58:52 IST" duration-ms="4135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC_005_Logout@4466af20]" started-at="2026-07-01T19:58:52 IST" name="tearDown" finished-at="2026-07-01T19:58:53 IST" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC_005_Logout -->
+      <class name="tests.TC_004_DeleteCourse">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC_004_DeleteCourse@4f6ee6e4]" started-at="2026-07-01T19:58:14 IST" name="setUp" finished-at="2026-07-01T19:58:28 IST" duration-ms="13257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteCourse()[pri:4, instance:tests.TC_004_DeleteCourse@4f6ee6e4]" started-at="2026-07-01T19:58:28 IST" name="deleteCourse" description="TC_004 – Delete an existing course" finished-at="2026-07-01T19:58:34 IST" duration-ms="6953" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Course not found on page: Selenium Automation QA - Auto Test - 2026-07-01_19-57-58-060]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Course not found on page: Selenium Automation QA - Auto Test - 2026-07-01_19-57-58-060
+at pages.ManageCoursesPage.deleteCourseByName(ManageCoursesPage.java:162)
+at tests.TC_004_DeleteCourse.deleteCourse(TC_004_DeleteCourse.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCourse -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC_004_DeleteCourse@4f6ee6e4]" started-at="2026-07-01T19:58:34 IST" name="tearDown" finished-at="2026-07-01T19:58:35 IST" duration-ms="999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC_004_DeleteCourse -->
+      <class name="tests.TC_001_Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC_001_Login@5af3afd9]" started-at="2026-07-01T19:57:00 IST" name="setUp" finished-at="2026-07-01T19:57:17 IST" duration-ms="17497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin()[pri:1, instance:tests.TC_001_Login@5af3afd9]" started-at="2026-07-01T19:57:17 IST" name="verifyLogin" description="TC_001 – Login with valid credentials" finished-at="2026-07-01T19:57:21 IST" duration-ms="4013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC_001_Login@5af3afd9]" started-at="2026-07-01T19:57:21 IST" name="tearDown" finished-at="2026-07-01T19:57:21 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC_001_Login -->
+      <class name="tests.TC_003_AddNewCourse">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.TC_003_AddNewCourse@1fa268de]" started-at="2026-07-01T19:57:41 IST" name="setUp" finished-at="2026-07-01T19:57:54 IST" duration-ms="12805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addNewCourse()[pri:3, instance:tests.TC_003_AddNewCourse@1fa268de]" started-at="2026-07-01T19:57:54 IST" name="addNewCourse" description="TC_003 – Add a new course" finished-at="2026-07-01T19:58:11 IST" duration-ms="17867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCourse -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TC_003_AddNewCourse@1fa268de]" started-at="2026-07-01T19:58:11 IST" name="tearDown" finished-at="2026-07-01T19:58:14 IST" duration-ms="2781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TC_003_AddNewCourse -->
+    </test> <!-- Learn Automation Tests -->
+  </suite> <!-- LearnAutomation Suite -->
+</testng-results>

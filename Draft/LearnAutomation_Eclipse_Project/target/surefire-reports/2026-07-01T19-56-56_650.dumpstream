@@ -1,0 +1,5 @@
+# Created at 2026-07-01T19:56:57.063
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Mukeshdata\LearnAutomation_FIXED\LearnAutomation\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
