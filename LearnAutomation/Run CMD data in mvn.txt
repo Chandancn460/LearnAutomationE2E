@@ -1,0 +1,10 @@
+By MVN
+
+PS D:\Mukeshdata\LearnAutomation_FIXED\LearnAutomation>
+mvn.cmd test
+
+By TESTNG XML 
+PS D:\Mukeshdata\LearnAutomation_FIXED\LearnAutomation>
+
+
+mvn clean test "-DsuiteXmlFile=src/test/resources/testng.xml"
